@@ -1,5 +1,5 @@
-Runtimes speed tests
-====================
+Speed tests
+===========
 
 ### go
 ```
@@ -54,4 +54,12 @@ found 72543 primes
 version: 4.0.30319.42000
 19.93user 0.12system 0:20.07elapsed 99%CPU (0avgtext+0avgdata 35480maxresident)k
 0inputs+0outputs (0major+3519minor)pagefaults 0swaps
+```
+
+### c (gcc)
+```
+found 84172 primes
+version: gcc 8.1
+20.79user 0.02system 0:20.83elapsed 99%CPU (0avgtext+0avgdata 1952maxresident)k
+0inputs+0outputs (0major+257minor)pagefaults 0swaps
 ```
